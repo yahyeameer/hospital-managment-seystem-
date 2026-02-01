@@ -2,7 +2,7 @@
 
 import { useQuery } from "convex/react";
 import { Authenticated, Unauthenticated } from "convex/react";
-import { api } from "../../convex/_generated/api";
+import { api } from "../../../../convex/_generated/api";
 
 export default function Home() {
   const tasks = useQuery(api.tasks.get);
